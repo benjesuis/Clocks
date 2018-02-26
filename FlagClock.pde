@@ -22,7 +22,7 @@ void draw () {
   
   col1 = map(sec, 0, 60, 0, 255);
   col2 = map(min, 0, 60, 0, 255);
-  col3 = map(hr, 0, 60, 0, 255);
+  col3 = map(hr, 0, 12, 0, 255);
   
   translate(width / 2, height / 2);
   fill(col1, 255, 255);
